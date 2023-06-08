@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="115dp">
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:cardCornerRadius="12dp">
+
+            <ImageView
+                android:id="@+id/imgAnhMonAn"
+                android:layout_width="150dp"
+                android:layout_height="110dp"
+                android:scaleType="centerCrop"
+                android:src="@drawable/a" />
+
+            <TextView
+                android:id="@+id/txvCapDo"
+                android:layout_width="150dp"
+                android:layout_height="match_parent"
+                android:layout_marginBottom="0dp"
+                android:background="#3CFCE4E4"
+                android:gravity="center"
+
+                android:scaleType="centerCrop"
+                android:text="Cá Lóc Kho Nghệ"
+                android:textColor="#0C0C0C"
+                android:textSize="10dp" />
+
+        </androidx.cardview.widget.CardView>
+
+
+    </RelativeLayout>
+
+    <TextView
+        android:id="@+id/txvTenMonAn"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:padding="5dp"
+        android:text="Ten Mon An"
+        android:textColor="#000"
+        android:textSize="14dp" />
+
+</LinearLayout>
